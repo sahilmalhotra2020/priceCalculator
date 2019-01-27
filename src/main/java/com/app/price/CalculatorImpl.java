@@ -79,11 +79,6 @@ public class CalculatorImpl implements Calculator {
         return vwap.offerNumerator / vwap.offerDenominator;
     }
 
-    private Map<String, InstrumentFraction> calculateTwoWayVWAP(String marketName, InstrumentFraction instrumentFraction) {
-        return null;
-    }
-
-
     // Inner Class to store sum of Numerator and Denominator
     private class InstrumentFraction{
         private double bidNumerator = 0;
