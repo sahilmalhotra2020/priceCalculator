@@ -13,7 +13,7 @@ public class TwoWayPriceImpl implements TwoWayPrice {
     private final double offerPrice;
     private final double bidAmount;
 
-    public TwoWayPriceImpl(Instrument instrument, State state, double bidPrice, double offerAmount, double offerPrice, double bidAmount) {
+    public TwoWayPriceImpl(Instrument instrument, State state, double bidPrice, double bidAmount, double offerPrice, double offerAmount  ) {
         this.instrument = instrument;
         this.state = state;
         this.bidPrice = bidPrice;
